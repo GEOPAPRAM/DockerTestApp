@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using DockerSelfhostWebApi;
+using NUnit.Framework;
 
 namespace DockerSelfhostWebApi.Tests
 {
@@ -8,7 +9,7 @@ namespace DockerSelfhostWebApi.Tests
         [Test]
         public void HelloWorldTest()
         {
-            var controller = new DockerSelfhostWebApi.DemoController();
+            var controller = new DemoController();
 
             var result = controller.HelloWorld();
 

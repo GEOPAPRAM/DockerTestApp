@@ -65,13 +65,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DockerSelfhostWebApi\DockerSelfhostWebApi\DockerSelfhostWebApi.csproj">
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DockerSelfhostWebApi\DockerSelfhostWebApi.csproj">
       <Project>{4b07c5dc-95a6-418a-90ef-2bce1a8209a2}</Project>
       <Name>DockerSelfhostWebApi</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
