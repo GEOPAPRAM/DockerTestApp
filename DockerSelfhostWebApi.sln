@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerSelfhostWebApi", "DockerSelfhostWebApi\DockerSelfhostWebApi.csproj", "{4B07C5DC-95A6-418A-90EF-2BCE1A8209A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerSelfhostWebApi.Tests", "..\C\DockerSelfhostWebApi.Tests\DockerSelfhostWebApi.Tests.csproj", "{C85D33DF-1C06-43F8-9430-15D8249A2A7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerSelfhostWebApi.Tests", "DockerSelfhostWebApi.Tests\DockerSelfhostWebApi.Tests.csproj", "{C85D33DF-1C06-43F8-9430-15D8249A2A7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
